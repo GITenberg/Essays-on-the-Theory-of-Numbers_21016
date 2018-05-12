@@ -23,6 +23,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/9673
     wikipedia: http://en.wikipedia.org/wiki/Richard_Dedekind
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/21016#Essays-on-the-Theory-of-Numbers
 gutenberg_bookshelf: Mathematics
 gutenberg_issued: '2007-04-08'
 gutenberg_type: Text
