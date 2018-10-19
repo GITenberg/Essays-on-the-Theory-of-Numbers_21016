@@ -1,129 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/21016">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8a309d3f12754aec8820bee44f1c75aa">
-        <rdf:value>Number theory</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-t.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8819ba6d64af4f2abffd00af3adadf10">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71393</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N890d10ef63e143c18106624e3f4115fa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:06:40</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2a90a1d7137545f183d3ec8bf1011252">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N66faca8935ea46f9b0be1053bfb1303b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-08</dcterms:issued>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-t/21016-t.tex">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243143</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:05:28</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N692585d734ca4330afa2174eb99bbdbc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Essays on the Theory of Numbers</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-pdf.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:05:54</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N19e805e63b1c4876b41335c5aed488b9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">468165</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N2112127f375945b09710c181fa82cbcc">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/9674">
-        <pgterms:name>Beman, Wooster Woodruff</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</pgterms:deathdate>
-        <pgterms:alias>Beman, W. W. (Wooster Woodruff)</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:trl>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N7380716723d449ba8c998b0fc926c901">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-pdf.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:06:40</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd9afe7c0e2e94ee0aee54fcee1aabf0c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418075</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21016.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:16:03.421329</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8267</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N860b56fb622143bda94b433175ba483c">
+          <rdf:Description rdf:nodeID="N716b2c776e93457b8435a4c7e1d4b7cf">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/9673">
-        <pgterms:name>Dedekind, Richard</pgterms:name>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1831</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</pgterms:deathdate>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Richard_Dedekind"/>
         <pgterms:alias>Dedekind, Julius Wilhelm Richard</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</pgterms:deathdate>
+        <pgterms:name>Dedekind, Richard</pgterms:name>
         <pgterms:alias>Dedekind, J. W. Richard (Julius Wilhelm Richard)</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
+    <dcterms:title>Essays on the Theory of Numbers</dcterms:title>
     <pgterms:marc010>03001735</pgterms:marc010>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nc6d67cc77d684e97bc04051430e9cc40">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-pdf.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:06:40</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418075</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8d277a31c5c044118539f3fb2a512eb2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8f5dd2a6b31e4631a6fef28c4cd85a8d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-t/21016-t.tex">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243143</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb2f73cafd0b647bca116afc19a063022">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:05:28</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21016/21016-pdf.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/21016"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">468165</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-09T09:05:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N89a9e2df788a4968b7f4072cdf91adeb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-08</dcterms:issued>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/9674">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
+        <pgterms:alias>Beman, W. W. (Wooster Woodruff)</pgterms:alias>
+        <pgterms:name>Beman, Wooster Woodruff</pgterms:name>
+      </pgterms:agent>
+    </marcrel:trl>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">264</pgterms:downloads>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8bbdc71b41ec4d1f96adb0ccdfa9b395">
+      <rdf:Description rdf:nodeID="Ndc848d32418d4250bc2be52d02d41f10">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>QA</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nab9d9fb761924cb4bb3f0c82981766c3">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Mathematics</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6d6b1756b994422da94ef7cddf60d6c6">
+        <rdf:value>Number theory</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N94473a5365954f6ebbc31afc78ba9515">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
   </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Richard_Dedekind">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>

@@ -38,5 +38,6 @@ rights_url: http://creativecommons.org/about/pdm
 subjects:
 - !lcc 'QA'
 - !lcsh 'Number theory'
+- GITenberg
 title: Essays on the Theory of Numbers
 url: http://www.gutenberg.org/ebooks/21016
